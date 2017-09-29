@@ -97,7 +97,7 @@ int odd_opt(int arr[], int size)
 		}
 	}
 	
-	arr = (int*)realloc(arr, sizeof(int));
+	arr = (int*)realloc(arr, elem_count * sizeof(int));
 
 	for (int i = 0; i < elem_count; ++i)
 	{
